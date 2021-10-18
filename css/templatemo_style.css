@@ -27,6 +27,16 @@ h1, h2, h3, h4, h5, h6, span, p { font-family: 'Open Sans', Arial, Helvetice Neu
           border-radius: 0 !important;
 }
 
+.carousel-caption > h1,
+.carousel-caption > h2,
+.carousel-caption > h3,
+.carousel-caption > h4,
+.carousel-caption > h5,
+.carousel-caption > h6,
+.carousel-caption > span,
+.carousel-caption > p{
+    color: #3d1671;
+}
 .templatemo_clear {
 	clear: both;
 }
@@ -163,7 +173,7 @@ h1, h2, h3, h4, h5, h6, span, p { font-family: 'Open Sans', Arial, Helvetice Neu
 
 
 .btn-orange {
-    background-color: #ff7600;
+    background-color: #e9742a;
     border-bottom:2px solid #d35400;
     -webkit-border-radius: 0;
     -moz-border-radius: 0;
@@ -191,21 +201,29 @@ h1, h2, h3, h4, h5, h6, span, p { font-family: 'Open Sans', Arial, Helvetice Neu
 }
 
 .nav > li > a {
+    font-weight: bold;
     padding: 10px 20px;
 }
 
 .nav > li > a:hover,
 .nav > li > a:focus {
-    background-color: #ff7600;
+    background-color: #e9742a;
     color:#fff;
 }
 
 .navbar-default .navbar-nav > li > a:hover,
 .navbar-default .navbar-nav > li > a:focus {
-    background-color: #ff7600;
+    background-color: #e9742a;
     color:#fff;
 }
 
+#phone > a {
+    color: #e9742a;
+}
+
+#email > a {
+    color: #e9742a;
+}
 
 .nav > li > a {
     color: #929292;
@@ -218,7 +236,7 @@ h1, h2, h3, h4, h5, h6, span, p { font-family: 'Open Sans', Arial, Helvetice Neu
 .navbar-default .navbar-nav > .active > a,
 .navbar-default .navbar-nav > .active > a:hover,
 .navbar-default .navbar-nav > .active > a:focus {
-    background-color: #ff7600;
+    background-color: #e9742a;
     color:#fff;
 }
 
@@ -234,7 +252,7 @@ h1, h2, h3, h4, h5, h6, span, p { font-family: 'Open Sans', Arial, Helvetice Neu
 }
 
 .templatemo-header-orange {
-    background-color:#ff7600;
+    background-color:#e9742a;
     min-width: 298px;
     height: 67px;
     color: #fff; 
@@ -268,7 +286,7 @@ h1, h2, h3, h4, h5, h6, span, p { font-family: 'Open Sans', Arial, Helvetice Neu
 
 }
 .templatemo-line-header {
-    margin-top:100px;
+    margin-top:50px;
     margin-bottom:80px;
 }
 
@@ -344,7 +362,7 @@ h1, h2, h3, h4, h5, h6, span, p { font-family: 'Open Sans', Arial, Helvetice Neu
 
 .project-overlay {
     background : rgba(0,0,0,.75);
-    border : 2px solid #ff7600;
+    border : 2px solid #e9742a;
     visibility: hidden;
     position: absolute;
     text-align:center;
@@ -483,26 +501,15 @@ a:hover .social-icon-fb {
     background: url('../images/social-icon-fb-over.png') no-repeat;
 }
 
-.social-icon-rss {
-    background: url('../images/social-icon-rss.png') no-repeat;
+.social-icon-instagram {
+    background: url('../images/social-icon-instagram.png') no-repeat;
     width: 42px;
     height: 42px;
     display: block;
 }
 
-a:hover .social-icon-rss {
-    background: url('../images/social-icon-rss-over.png') no-repeat;
-}
-
-.social-icon-twitter {
-    background: url('../images/social-icon-twitter.png') no-repeat;
-    width: 42px;
-    height: 42px;
-    display: block;
-}
-
-a:hover .social-icon-twitter {
-    background: url('../images/social-icon-twitter-over.png') no-repeat;
+a:hover .social-icon-instagram {
+    background: url('../images/social-icon-instagram-over.png') no-repeat;
 }
 
 .social-icon-linkedin {
@@ -516,19 +523,8 @@ a:hover .social-icon-linkedin {
     background: url('../images/social-icon-linkedin-over.png') no-repeat;
 }
 
-.social-icon-dribbble {
-    background: url('../images/social-icon-dribbble.png') no-repeat;
-    width: 42px;
-    height: 42px;
-    display: block;
-}
-
-a:hover .social-icon-dribbble {
-    background: url('../images/social-icon-dribbble-over.png') no-repeat;
-}
-
 ul.templatemo-project-gallery  li  a img:hover {
-    border: 3px solid #ff7600;
+    border: 3px solid #e9742a;
 }
 
 .templatemo-gallery-category a {
