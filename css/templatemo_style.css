@@ -512,15 +512,15 @@ a:hover .social-icon-instagram {
     background: url('../images/social-icon-instagram-over.png') no-repeat;
 }
 
-.social-icon-linkedin {
-    background: url('../images/social-icon-linkedin.png') no-repeat;
+.social-icon-whatsapp {
+    background: url('../images/social-icon-whatsapp.png') no-repeat;
     width: 42px;
     height: 42px;
     display: block;
 }
 
-a:hover .social-icon-linkedin {
-    background: url('../images/social-icon-linkedin-over.png') no-repeat;
+a:hover .social-icon-whatsapp {
+    background: url('../images/social-icon-whatsapp-over.png') no-repeat;
 }
 
 ul.templatemo-project-gallery  li  a img:hover {
